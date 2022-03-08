@@ -17,6 +17,7 @@ bk2 = buku("The God Father","Mario Puzo",1969)
 bk3 = buku("Dilan tahun 1990","Paidi Baiq",2014)
 
 # Menampilkan Objek
-bk1.tampilkan_buku()
-bk2.tampilkan_buku()
-bk3.tampilkan_buku()
+bk = [bk1,bk2,bk3]
+print("="*20,"DAFTAR BUKU","="*20)
+for data in bk:
+    data.tampilkan_buku()
