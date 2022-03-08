@@ -7,7 +7,7 @@ class mahasiswa:
         self.__nim = nim
         self.__prodi = prodi
         self.__tahun = tahun_masuk
-    def tampil_mhs(self):
+    def tampilkan_mhs(self):
         print(f'\nNama \t: {self.__nama}')
         print(f'NIM \t: {self.__nim}')
         print(f'Prodi \t: {self.__prodi}')
