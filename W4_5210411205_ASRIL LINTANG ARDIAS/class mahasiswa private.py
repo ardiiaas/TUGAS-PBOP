@@ -19,6 +19,7 @@ mhs2 = mahasiswa('Peter','5190411459','Sistem Informasi',2019)
 mhs3 = mahasiswa('Brian','5200411145','Teknik Sipil',2020)
 
 # Menampilkan Objek
-mhs1.tampil_mhs()
-mhs2.tampil_mhs()
-mhs3.tampil_mhs()
+mhs = [mhs1,mhs2,mhs3]
+print("="*10,"DAFTAR MAHASISWA","="*10)
+for data in mhs:
+    data.tampilkan_mhs()
