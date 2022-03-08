@@ -20,9 +20,7 @@ minum5 = menu_minuman('Expresso','Kopi fresh tanpa gula',20000)
 minum6 = menu_minuman('Es Kelapa Muda','Dengan Campuran sirup dan susu',5000)
 
 # Menampilkan Objek
-minum1.tampilkan_menu()
-minum2.tampilkan_menu()
-minum3.tampilkan_menu()
-minum4.tampilkan_menu()
-minum5.tampilkan_menu()
-minum6.tampilkan_menu()
+minum = [minum1,minum2,minum3,minum4,minum5,minum6]
+print("\n---Daftar Menu Healthy Fruits---")
+for data in minum:
+    data.tampilkan_menu()
