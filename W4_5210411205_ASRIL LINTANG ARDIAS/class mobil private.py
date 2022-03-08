@@ -20,6 +20,7 @@ Mobil2 = mobil('Pajero Sport',2400,'4N15',180,540)
 Mobil3 = mobil('Supra MK4',3000,'2JZGTE',1000,1100)
 
 # Menampilkan Objek
-Mobil1.tampil()
-Mobil2.tampil()
-Mobil3.tampil()
+Mobil = [Mobil1,Mobil2,Mobil3]
+print("="*20,"DAFTAR MOBIL","="*20)
+for data in Mobil:
+    data.tampilkan_mobil()
