@@ -8,7 +8,7 @@ class mobil:
         self.__code = code_mesin
         self.__HP = HP
         self.__NM = NM
-    def tampil(self):
+    def tampilkan_mobil(self):
         print(f'\nMerk \t\t: {self.__merk}')
         print(f'Kapasitas  \t: {self.__cc} CC')
         print(f'Code Mesin \t: {self.__code}')
